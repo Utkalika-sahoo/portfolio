@@ -1,0 +1,395 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:calc(0.75vh + 0.75vw);
+    margin: 0.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.start
+{
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.6)) ,url(./images/shreeu.jpeg);
+    /*height: 39.5rem;*/
+    background-size: cover;
+    background-color: 45rem;
+    background-attachment: fixed;
+    /*border: 0.5rem solid #fff;*/
+    z-index: 5;
+    width: 100%;
+    height: 100vh;
+}
+
+.name
+{
+    font-size: 3rem;
+    padding-top: 14rem;
+    padding-left: 10rem;
+    color: #fff;
+    z-index: 9999;
+}
+
+.icon
+{
+    padding-left: 14.2rem;
+}
+
+.about
+{
+    padding-top: 5rem;
+    background-color: #FFF5DE;
+    padding-bottom: 2rem;
+}
+
+.about-img
+{
+    
+    min-width: 20rem;
+    max-height: 20rem;
+    padding-left: 0.5rem;
+    display: flex;
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.2rem 0.5rem #DF5E5E ;
+    /*border: 0.5rem solid #fff;*/
+}
+
+.about-heading ,.skillheading, .educationheading, .volheading, .projectheading
+{
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline 0.2rem solid #DF5E5E;
+    padding-bottom: 2rem;
+    animation-name: headinganimi;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes headinganimi
+{
+    100% {transform: scale(1.5,1.5);}
+}
+
+.aboutpara
+{
+    font-size: 1.3rem;
+    padding: 1rem 0 1rem 0;
+    word-spacing: 0.2rem;
+}
+
+.column
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.column1
+{
+    margin-left: 2rem;
+}
+
+.column2
+{
+    padding-left: 12rem;
+}
+
+.column3
+{
+    padding-left: 1rem;
+}
+
+.abtme
+{
+    list-style-type: none;
+}
+
+.para{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-left: 20rem;
+    padding: 2rem;
+}
+
+.row
+{
+    display: flex;
+}
+
+.about i
+{
+    color: #DF5E5E;
+}
+
+.skills
+{
+    background-color: #FDD2BF;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+/*#navigationbar
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background-color: black;
+}*/
+
+.progress 
+{
+    width: 100%;
+    background: none;
+    background-image: none;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #FFF5DE;
+}
+
+.skill {
+    padding: 10px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+}
+
+.progress-bar 
+{
+    height: 1rem;
+    background-color: #DF5E5E;
+}
+
+.paragraph
+{
+    font-size: 1.3rem;
+    word-spacing: 0.2rem;
+}
+
+.para1
+{
+    padding-top: 0.4rem;
+}
+
+.circle
+{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #D62AD0;
+    border-radius: 50%;
+    margin: auto;
+    margin-left: 4rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem grey;
+    animation-name: jumping-circle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes jumping-circle
+{
+    20% {transform: translate(310px,157px)}
+}
+
+.basket
+{
+    width: 5rem;
+    height: 2rem;
+    background-color: aqua;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    margin-left: 24.3rem;
+    margin-top: 10rem;
+    box-shadow: 0 2.5px 5px gray;
+    z-index: 999;
+}
+
+.education
+{
+    background-color: #FFF5DE;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.para2
+{
+    font-size: 1.7rem;
+    font-weight: 200;    
+}
+
+.edu
+{
+    list-style-type: none;
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.edu i
+{
+    color: #DF5E5E;
+}
+
+.volunteering
+{
+    background-color: #FDD2BF;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;   
+}
+
+.allclubs
+{
+    display: inline-flex;
+}
+
+.clubs
+{
+    border: 0.2rem solid #DF5E5E;
+    margin-left: 7rem;
+    width: 20rem;
+    height: 19rem;
+    padding: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem gray;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.clubs img
+{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    box-shadow: 0.3rem 0.3rem 0.5rem #FFF5DE;
+}
+
+.vol
+{
+    list-style-type: none;
+}
+
+.clubhead
+{
+    justify-self: center;
+    font-size: 1.2rem;
+    text-decoration: 0.3rem underline dotted #FFF5DE;
+    align-self: center;
+}
+
+.c1
+{
+    margin-left: 1rem;
+}
+
+.c2
+{
+    margin-left: 6rem;
+}
+
+.c3
+{
+    margin-left: 3.5rem;
+}
+
+.clubimg
+{
+    margin: 0.5rem 2rem 0.5rem 5.5rem;    
+}
+
+.vol i
+{
+    color: #DF5E5E;
+}
+
+.project
+{
+    background-color: #FFF5DE;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.projectlist i
+{
+    color: #DF5E5E;
+}
+
+.projectlist
+{
+    list-style-type: none;
+}
+
+.thankyou
+{
+    background-color: #F0D9E7;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 2rem;  
+}
+
+.thanks
+{
+    font-size: 3rem;
+    text-align: center;
+    color: #72147E;
+    animation-name: thanks;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes thanks
+{
+    100% {transform: scale(1.5,1.5)}
+}
+
+.icons
+{
+    color: #fff;
+    z-index: 999;
+}
+
+.icons:hover
+{
+    color: aqua;
+    transform: scale(1.2)
+}
+
+/********************************************************************************/
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #F0D9E7;
+  }
+  
+  /* Navbar links */
+#navbar a {
+float: left;
+display: block;
+color: #72147E;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+float: right;
+}
+
+#navbar a:hover
+{
+    text-decoration: underline 0.2rem solid aqua;
+    color: #F21170;
+}
+
+.sticky 
+{
+position: fixed;
+top: 0;
+width: 100%;
+}
